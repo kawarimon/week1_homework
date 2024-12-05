@@ -1,10 +1,7 @@
 for x_num in range(1, 10):
     for y_num in range(1, 10):
         result = x_num * y_num
-        if result < 10:
-            print(result, end=" ")
-        else:
-            print(result, end=" ")
+        print(result, end=" ")
     print()
 
 # 実行結果

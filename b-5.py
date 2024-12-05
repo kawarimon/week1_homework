@@ -46,7 +46,7 @@ def calculate_min(numbers):
 def calculate_mean(numbers):
     total = calculate_sum(numbers)  # 合計値を再利用
     count = len(numbers)
-    return total / count
+    return total // count
 
 
 # メイン関数の呼び出し

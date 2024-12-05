@@ -5,10 +5,7 @@ col = int(input("列数を入力してください: "))
 for x_num in range(1, row + 1):  # 行を繰り返す
     for y_num in range(1, col + 1):  # 列を繰り返す
         result = x_num * y_num  # 掛け算結果を計算
-        if result < 10:  # 1桁の場合はスペースを2つ追加
-            print(result, end="  ")
-        else:  # 2桁の場合はスペースを1つ追加
-            print(result, end=" ")
+        print(result, end=" ")
     print()  # 改行
 
 
